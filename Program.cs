@@ -137,7 +137,7 @@ namespace attr
 						File.SetAttributes(f, attrs);
 
 						// Display the new attributes.
-						DisplayFileAttributes(a);
+						DisplayFileAttributes(f);
 					}
 
 					// Clear/reset the flags for the next file.
